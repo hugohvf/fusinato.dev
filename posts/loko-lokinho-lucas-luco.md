@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gio eu te amo"
+title: "Lokinho é um principe"
 date: 2022-02-04 19:36:52
 image: '/assets/img/3-meses-globocom/lucas-giovani.png'
 description: "O cara é brabo"
@@ -16,6 +16,6 @@ introduction: "teste"
 
 ## Introdução
 
-O cara é muito bom mesmo
+O cara tem marra
 
-  ![Interface mostrando a lista de posts](/assets/img/lucas-giovani.jpeg)
+  ![Lokinho](/assets/img/lokinho.jpeg)

@@ -10,6 +10,7 @@ tags:
 - gio
 - lindo
 categories:
+- Friends
 twitter_text: "teste"
 introduction: "teste"
 ---

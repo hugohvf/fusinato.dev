@@ -1,9 +1,9 @@
 {
-  "name": "willianjusten-blog",
+  "name": "hugo-fusinato-blog",
   "private": true,
-  "description": "My personal blog on willianjusten.com.br",
-  "version": "3.0.0-alfa",
-  "author": "Willian Justen <willianjustenqui@gmail.com>",
+  "description": "My personal blog on hugofusinato.com",
+  "version": "1.0.0",
+  "author": "Hugo Fusinato <hugohvf@hotmail.com>",
   "dependencies": {
     "@babel/core": "^7.14.6",
     "@openlab/vercel-netlify-cms-github": "^1.1.0",
@@ -53,9 +53,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/willianjusten/willianjusten.com.br"
+    "url": "https://github.com/hugohvf/fusinato.dev"
   },
   "bugs": {
-    "url": "https://github.com/willianjusten/willianjusten.com.br"
+    "url": "https://github.com/hugohvf/fusinato.dev"
   }
 }

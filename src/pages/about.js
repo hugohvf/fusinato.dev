@@ -6,100 +6,40 @@ import { MainContent } from 'styles/base'
 const AboutPage = () => (
   <>
     <NextSeo
-      title="Sobre mim | Willian Justen"
+      title="Sobre mim | Hugo Fusinato"
       description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
       openGraph={{
         type: 'website',
         locale: 'en_US',
-        url: 'https://willianjusten.com.br',
-        site_name: 'Willian Justen',
-        title: 'Willian Justen',
+        url: 'https://hugofusinato.com',
+        site_name: 'Hugo Fusinato',
+        title: 'Hugo Fusinato',
         images: [
           {
             url: 'https://willianjusten.com.br/assets/img/blog-cover.png',
             width: 1200,
             height: 630,
-            alt: 'Willian Justen Blog'
+            alt: 'Hugo Fusinato Blog'
           }
         ]
       }}
     />
     <MainContent>
-      <h1>Sobre mim</h1>
+      <h1>About Me</h1>
       <p>
-        Meu nome é Willian Justen de Vasconcellos, nasci em Petrópolis/RJ e sou
-        instrutor na{' '}
-        <a
-          href="https://www.udemy.com/user/willian-justen-de-vasconcellos/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Udemy
-        </a>
-        , além de ser um nômade digital e tirar{' '}
-        <a
-          href="https://unsplash.com/@willianjusten"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          algumas fotos
-        </a>{' '}
-        por onde vou.
+        Hugo, developer who loves challenges and always curious to understand how tech works.
       </p>
 
       <p>
-        Já passei por empresas como{' '}
-        <a
-          href="http://www.toptal.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Toptal
-        </a>
-        ,{' '}
-        <a
-          href="http://www.hugeinc.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Huge
-        </a>
-        ,{' '}
-        <a
-          href="http://www.globo.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Globo.com
-        </a>
-        ,{' '}
-        <a
-          href="https://queremos.com.br"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Queremos
-        </a>{' '}
-        e outras mais. Cursei Tecnologia da Informação na Faeterj-Petrópolis no
-        ano de 2014, mas curiosamente, essa não foi minha primeira faculdade, eu
-        também fiz <strong>Química Industrial</strong> na Uff. Sim, você leu
-        certo, eu realmente fiz Química… E por que eu trabalho com web agora?
-        Ah… porque web é incrível, a facilidade em aprender cada dia mais e
-        ainda poder ajudar um grande número de pessoas me deixa feliz e
-        realizado todos os dias.
+        What gets me going is building great products for users while keeping code clean and efficient. I enjoy collaborating with team members to bring the best solution to life. 
       </p>
 
       <p>
-        Eu amo trabalhar em equipe e sou bem comunicativo. No meu tempo livre,
-        gosto de ensinar meus amigos sobre alguma coisa que aprendi, acho que
-        por isso nasceu esse blog.
+        My current focus is on microservices and scalable systems, but over the years I have accumulated extensive experience with front end and back end web development. When my company uses a new language or tech stack I always learn fast. I am constantly searching for new updates on tech that could be useful in the products I am working on.
       </p>
 
-      <h2>Contato</h2>
-
       <p>
-        Você pode entrar em contato comigo através de qualquer uma das minhas
-        redes sociais.
+        I have worked at startups, small companies, and large corporations, and know how to adapt to each environment.
       </p>
 
       <SocialLinks hideStyle />

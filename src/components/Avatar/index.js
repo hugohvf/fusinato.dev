@@ -6,8 +6,8 @@ const Avatar = () => {
   return (
     <S.AvatarWrapper>
       <Image
-        src="https://pbs.twimg.com/profile_images/1465351725305327620/z44BYn1t_400x400.jpg"
-        alt="Uma foto minha vestido com o uniforme da Grifinória do Harry Potter"
+        src="https://i.imgur.com/CdWdgg2.jpg"
+        alt="Uma foto minha já um pouco ébrio de vinho"
         width={64}
         height={64}
       />

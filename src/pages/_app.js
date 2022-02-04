@@ -27,7 +27,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Willian Justen</title>
+        <title>Hugo Fusinato</title>
         <link rel="shortcut icon" href="/assets/img/willianjusten-icon.png" />
         <link
           rel="apple-touch-icon"

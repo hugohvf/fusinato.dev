@@ -4,20 +4,12 @@ const links = [
     url: '/'
   },
   {
-    label: 'Sobre Mim',
+    label: 'About Me',
     url: '/about'
   },
   {
-    label: 'Cursos',
-    url: '/cursos'
-  },
-  {
-    label: 'Séries',
+    label: 'Topics',
     url: '/series'
-  },
-  {
-    label: 'Viagens',
-    url: 'https://my-trips.willianjusten.com.br/'
   }
 ]
 

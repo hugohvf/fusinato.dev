@@ -1,24 +1,21 @@
 const links = [
   {
     label: 'Github',
-    url: 'https://github.com/willianjusten'
+    url: 'https://github.com/hugohvf'
   },
   {
     label: 'Twitter',
-    url: 'https://twitter.com/Willian_justen'
-  },
-  {
-    label: 'Youtube',
-    url: 'https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1'
+    url: 'https://twitter.com/hugohvf'
   },
   {
     label: 'Instagram',
-    url: 'https://www.instagram.com/will_justen/'
-  },
-  {
-    label: 'Unsplash',
-    url: 'https://unsplash.com/@willianjusten'
+    url: 'https://www.instagram.com/hugohvf/'
   }
 ]
 
 export default links
+// Add linkedin
+// {
+//   label: 'Youtube',
+//   url: 'https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1'
+// },

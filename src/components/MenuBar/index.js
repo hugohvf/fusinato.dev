@@ -52,7 +52,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
           </S.MenuBarLink>
         </Link>
 
-        <S.MenuBarGroupDesktop>
+        {/* <S.MenuBarGroupDesktop>
           <Link href="/cursos/" passHref>
             <S.MenuBarLink
               className={router.pathname === '/cursos' ? 'active' : ''}
@@ -76,7 +76,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
               <S.MenuBarNotification />
             </S.MenuBarItem>
           </S.MenuBarExternalLink>
-        </S.MenuBarGroupDesktop>
+        </S.MenuBarGroupDesktop> */}
       </S.MenuBarGroup>
 
       <S.MenuBarGroupMobile>

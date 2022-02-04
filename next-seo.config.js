@@ -2,11 +2,11 @@ const DefaultSEO = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://willianjusten.com.br',
-    site_name: 'Willian Justen'
+    url: 'https://hugofusinato.com',
+    site_name: 'Hugo Fusinato'
   },
   twitter: {
-    handle: '@Willian_justen',
+    handle: '@hugohvf',
     site: '@site',
     cardType: 'summary_large_image'
   }

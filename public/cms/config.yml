@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: willianjusten/willianjusten.com.br
-  base_url: https://willianjusten.com.br/
+  repo: hugohvf/hugofusinato.com
+  base_url: https://hugofusinato.com/
   auth_endpoint: api/auth/
 
 media_folder: public/assets/img

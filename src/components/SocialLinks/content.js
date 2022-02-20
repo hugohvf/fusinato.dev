@@ -15,7 +15,3 @@ const links = [
 
 export default links
 // Add linkedin
-// {
-//   label: 'Youtube',
-//   url: 'https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1'
-// },

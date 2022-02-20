@@ -16,7 +16,7 @@ const AboutPage = () => (
         title: 'Hugo Fusinato',
         images: [
           {
-            url: 'https://willianjusten.com.br/assets/img/blog-cover.png',
+            url: 'https://hugofusinato.com/assets/img/blog-cover.png',
             width: 1200,
             height: 630,
             alt: 'Hugo Fusinato Blog'

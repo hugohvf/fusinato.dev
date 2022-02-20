@@ -37,15 +37,15 @@ const BlogList = ({ posts }) => {
   return (
     <>
       <NextSeo
-        title="Home | Willian Justen"
-        description="Um blog de um desenvolvedor Front End, fã de SVG, Javascript, React e novas tecnologias. Nômade Digital, instrutor na Udemy e viajando o mundo."
+        title="Home | Hugo Fusinato"
+        description="Blog of a curious developer"
         openGraph={{
           images: [
             {
-              url: 'https://willianjusten.com.br/assets/img/blog-cover.png',
+              url: '',
               width: 1200,
               height: 630,
-              alt: 'Willian Justen Blog'
+              alt: 'Hugo Fusinato\'s Blog'
             }
           ]
         }}

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Container = styled.section`
   align-items: center;
-  background-image: url('https://willianjusten.com.br/assets/img/john-404.gif');
+  background-image: url('https://hugofusinato.com/assets/img/john-404.gif');
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 800px;
@@ -62,7 +62,7 @@ const Button = styled.a`
 
 const NotFoundPage = () => (
   <Container>
-    <NextSeo title="404: Not found | Willian Justen" />
+    <NextSeo title="404: Not found | Hugo Fusinato" />
     <Title>404</Title>
     <Text>Ué? Cadê? Parece que não tem o que você procura.</Text>
     <Link href="/" passHref>

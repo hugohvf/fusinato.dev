@@ -37,15 +37,15 @@ const SeriesPage = ({ posts }) => {
   return (
     <>
       <NextSeo
-        title="Series | Willian Justen"
-        description="Aqui ficarão as series em que iremos abordar sobre determinados assuntos."
+        title="Topics | Hugo Fusinato"
+        description="All the topics I have posted about"
         openGraph={{
           images: [
             {
-              url: 'https://willianjusten.com.br/assets/img/series-cover.png',
+              url: '',
               width: 1200,
               height: 630,
-              alt: 'Willian Justen Series'
+              alt: 'Hugo Fusinato Series'
             }
           ]
         }}

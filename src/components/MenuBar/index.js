@@ -52,31 +52,6 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
           </S.MenuBarLink>
         </Link>
 
-        {/* <S.MenuBarGroupDesktop>
-          <Link href="/cursos/" passHref>
-            <S.MenuBarLink
-              className={router.pathname === '/cursos' ? 'active' : ''}
-              title="Ver cursos"
-            >
-              <S.MenuBarItem onClick={openMenu}>
-                <GraduationCap />
-                <S.MenuBarNotification />
-              </S.MenuBarItem>
-            </S.MenuBarLink>
-          </Link>
-
-          <S.MenuBarExternalLink
-            title="YouTube Videos"
-            href="https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <S.MenuBarItem>
-              <Youtube />
-              <S.MenuBarNotification />
-            </S.MenuBarItem>
-          </S.MenuBarExternalLink>
-        </S.MenuBarGroupDesktop> */}
       </S.MenuBarGroup>
 
       <S.MenuBarGroupMobile>

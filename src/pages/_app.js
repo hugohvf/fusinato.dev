@@ -47,7 +47,7 @@ function App({ Component, pageProps }) {
       <GlobalStyles />
       <Layout>
         <NextNProgress
-          color="#F231A5"
+          color="#FB472E"
           startPosition={0.3}
           stopDelayMs={200}
           height={5}

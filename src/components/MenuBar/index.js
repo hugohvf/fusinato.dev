@@ -64,7 +64,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
 
       <S.MenuBarGroup>
         <S.MenuBarItem
-          title="Mudar o Tema"
+          title="Change theme"
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
           }}
@@ -74,7 +74,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
           <Light />
         </S.MenuBarItem>
         <S.MenuBarItem
-          title="Ir para o Topo"
+          title="Go to the top"
           onClick={() => {
             window.scroll({ top: 0, behavior: 'smooth' })
           }}

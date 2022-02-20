@@ -12,7 +12,7 @@ const Post = ({ slug, date, timeToRead, title, description, main_class }) => {
           )}
           <S.PostInfo>
             <S.PostDate>
-              {date} {timeToRead && ` • ${timeToRead} min de leitura`}
+              {date} {timeToRead && ` • ${timeToRead} min read`}
             </S.PostDate>
             <S.PostTitle>{title}</S.PostTitle>
             <S.PostDescription>{description}</S.PostDescription>

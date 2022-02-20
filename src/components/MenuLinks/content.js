@@ -9,7 +9,7 @@ const links = [
   },
   {
     label: 'Topics',
-    url: '/series'
+    url: '/topics'
   }
 ]
 

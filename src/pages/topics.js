@@ -8,7 +8,7 @@ import { unique } from 'lib/utils'
 
 import Post from 'components/Post'
 
-const SeriesTitle = styled.h2`
+const TopicsTitle = styled.h2`
   background: var(--borders);
   color: var(--texts);
   font-size: 2rem;
@@ -21,7 +21,7 @@ const SeriesTitle = styled.h2`
   `}
 `
 
-const SeriesPage = ({ posts }) => {
+const TopicsPage = ({ posts }) => {
   const postList = posts.filter(post => post.frontmatter.categories !== null)
 
   const categories = postList
@@ -45,7 +45,7 @@ const SeriesPage = ({ posts }) => {
               url: '',
               width: 1200,
               height: 630,
-              alt: 'Hugo Fusinato Series'
+              alt: 'Hugo Fusinato Topics'
             }
           ]
         }}
@@ -53,7 +53,7 @@ const SeriesPage = ({ posts }) => {
 
       {categories.map((category, i) => (
         <section key={i}>
-          <SeriesTitle id={slugifyCategory(category)}># {category}</SeriesTitle>
+          <TopicsTitle id={slugifyCategory(category)}># {category}</TopicsTitle>
 
           {getPostsByCategory(category).map(post => (
             <Post
@@ -82,4 +82,4 @@ export async function getStaticProps() {
   }
 }
 
-export default SeriesPage
+export default TopicsPage
